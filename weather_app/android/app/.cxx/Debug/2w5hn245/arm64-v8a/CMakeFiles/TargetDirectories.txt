@@ -1,0 +1,2 @@
+C:/Users/my lapi/Desktop/weather_app/weather_app/android/app/.cxx/Debug/2w5hn245/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/my lapi/Desktop/weather_app/weather_app/android/app/.cxx/Debug/2w5hn245/arm64-v8a/CMakeFiles/rebuild_cache.dir
