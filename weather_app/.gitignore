@@ -43,7 +43,7 @@ app.*.map.json
 /android/app/release
 
 #apikey
-/API_key/
+/weather_app/assets/API_key
 
 #.vscode
 /.vscode/
