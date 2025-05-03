@@ -1,7 +1,7 @@
 # VVeatherly App
 <p>
-VVeatherly is a simple, minimilistic and aesthetic cross-platform Flutter weather application that provides real-time weather information, UV index, and a chatbot interface for weather queries. The app uses the OpenWeatherMap One Call 3.0 API and supports both light and dark themes. </n>
-This app was originally a figma idea that was then brought to life using flutter. 
+VVeatherly is a simple, minimilistic and aesthetic cross-platform Flutter weather application that provides real-time weather information, UV index, and a chatbot interface for weather queries. The app uses the OpenWeatherMap One Call 3.0 API and supports both light and dark themes. </p>
+<p> This app was originally a figma idea that was then brought to life using flutter. 
 </p>
 
 ## demo version
@@ -29,27 +29,30 @@ The actual screenshots of the android version of the app are as follows:
 ---
 
 ## Getting Started
-NOTE: Set up the flutter environment using the official flutter documentation for installation https://docs.flutter.dev/get-started/install
+NOTE: Set up the flutter environment using the official flutter documentation for installation 
+<p> https://docs.flutter.dev/get-started/install </p>
 
 ### 1. Clone the repository
-git clone https://github.com/bhavikas-loca1/weather_app.git
-cd weather_app
+<p> git clone https://github.com/bhavikas-loca1/weather_app.git </p>
+<p> cd weather_app </p>
 
 ### 2. install dependencies 
 flutter pub get
 
 ### 3. create an api_KEY folder in your assets 
 In it create a secret_key.json file that contains your api key in the following format
+<p>
 {
     "OPENWEATHER_API_KEY": "ENTER_YOUR_API_KEY_HERE"
   }
+</p>
 <p> NOTE: You have to subscribe to the openweatherapp one-call api 3.0 inorder to enable the access to this api. This api will provide you with current weather, hourly forecasts and uv indexEven though this api requires you to give out your card details, worry not because upto 999 calls are free per day. Once you have received the confirmation mail, you can use your default api key from openweatherapi to access the 3.0 endpoint. </p>
 
 ### 4. run the application
-Flutter run 
+Flutter run </n>
 NOTE: Check for your sdk dependencies and permission issues (i.e., check ios/runner and android/app/src) before running the app
 
-## Project structure 
+## Project Structure 
 - assets directory for animations, api_KEY (Secret), audio, fonts(only for crimson pro, rest using direct google fonts embedding), icons (the actual files for ios and android app icons are defined in android/app/src/res/midmaps and ios/Runner/Assets.xcassets) and images
 - lib directory (contains the actual code for the app)
     - lib/models/weather_model.dart : contains the class in which the data model shall be represented 
