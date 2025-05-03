@@ -133,16 +133,16 @@ class _TemperatureDarkScreenState extends State<TemperatureDarkScreen> {
       case 'smoke':
       case 'haze':
       case 'fog':
-        return 'assets/animations/cloud_animation.lottie';
+        return 'assets/animations/cloud_animation.json';
       case 'rain':
       case 'shower rain':
       case 'drizzle':
       case 'thunderstorm':
-        return 'assets/nimations/nimation - 1745867957986.lottie';
+        return 'assets/animations/thunder_rain.json';
       case 'partially cloudy':
         return 'assets/animations/partially_cloudy_animations.json';
       case 'snowy':
-        return 'assets/animations/snow_animation.lottie';
+        return 'assets/animations/snow_animations.json';
       case 'clear':
         return 'assets/animations/sunny_animation.json';
       default:

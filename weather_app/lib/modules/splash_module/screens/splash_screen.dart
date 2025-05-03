@@ -55,7 +55,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     },);
   }
   void _playAudio() async {
-    await _audioPlayer.play(AssetSource('weather_app/assets/audio/distant-breeze-241047.mp3')); // Play background music
+    await _audioPlayer.play(AssetSource('assets/audio/distant-breeze-241047.mp3')); // Play background music
   }
 
   void _stopAudio() async {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:lottie/lottie.dart';
 
 class UvIndexPage extends StatelessWidget {
   final double uvIndex;
@@ -13,6 +14,11 @@ class UvIndexPage extends StatelessWidget {
     if (uv < 11) return "Very High: Protection against sun damage is needed.";
     return "Extreme: Avoid being outside during midday hours.";
   }
+  String sunscreenMeter(double uv){
+    if (uv < 2) return 'assets/animations/UV_sun_good.json'; 
+    if (uv > 2) return 'assets/animations/UV_sun.json';
+    return 'assets/animations/default_uv.json'; // Default case
+  }
 
   String getWeatherAnimation(String? mainCondition) {
     if (mainCondition == null) return "";
@@ -22,12 +28,12 @@ class UvIndexPage extends StatelessWidget {
       case 'smoke':
       case 'haze':
       case 'fog':
-        return 'assets/animations/cloud_animation.lottie';
+        return 'assets/animations/cloud_animation.json';
       case 'rain':
       case 'shower rain':
       case 'drizzle':
       case 'thunderstorm':
-        return 'assets/nimations/nimation - 1745867957986.lottie';
+        return 'assets/animations/thunder_rain.json';
       case 'partially cloudy':
         return 'assets/animations/partially_cloudy_animations.json';
       case 'snowy':
@@ -56,7 +62,13 @@ class UvIndexPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 40),
+            
+            Lottie.asset(
+              sunscreenMeter(uvIndex), 
+              width : 200, 
+              height: 200,
+              ), 
+            SizedBox(height: 20),
             Text(
               "Current UV Index: $uvIndex".toUpperCase(),
               style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),

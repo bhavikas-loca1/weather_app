@@ -133,16 +133,16 @@ class _TemperatureScreenState extends State<TemperatureScreen> {
       case 'smoke':
       case 'haze':
       case 'fog':
-        return 'assets/animations/cloud_animation.lottie';
+        return 'assets/animations/cloud_animation.json';
       case 'rain':
       case 'shower rain':
       case 'drizzle':
       case 'thunderstorm':
-        return 'assets/nimations/nimation - 1745867957986.lottie';
+        return 'assets/animations/thunder_rain.json';
       case 'partially cloudy':
         return 'assets/animations/partially_cloudy_animations.json';
       case 'snowy':
-        return 'assets/animations/snow_animation.lottie';
+        return 'assets/animations/snow_animations.json';
       case 'clear':
         return 'assets/animations/sunny_animation.json';
       default:
@@ -246,7 +246,7 @@ class _TemperatureScreenState extends State<TemperatureScreen> {
                 ),
                 const SizedBox(height: 50),
                 // Cloud image
-                Lottie.asset(getWeatherAnimation(_weather?.mainCondition), width: 200, height: 200, fit: BoxFit.fill,repeat: true, options: LottieOptions(enableMergePaths: true)),
+                Lottie.asset(getWeatherAnimation(_weather?.mainCondition), width: 200, height: 200, fit: BoxFit.fill,repeat: true),
                 const SizedBox(height: 30),
                 // City Name and Temperature
                 Text(
