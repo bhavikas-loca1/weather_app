@@ -49,8 +49,8 @@ In it create a secret_key.json file that contains your api key in the following 
 <p> NOTE: You have to subscribe to the openweatherapp one-call api 3.0 inorder to enable the access to this api. This api will provide you with current weather, hourly forecasts and uv indexEven though this api requires you to give out your card details, worry not because upto 999 calls are free per day. Once you have received the confirmation mail, you can use your default api key from openweatherapi to access the 3.0 endpoint. </p>
 
 ### 4. run the application
-Flutter run </n>
-NOTE: Check for your sdk dependencies and permission issues (i.e., check ios/runner and android/app/src) before running the app
+Flutter run 
+<p> NOTE: Check for your sdk dependencies and permission issues (i.e., check ios/runner and android/app/src) before running the app </p>
 
 ## Project Structure 
 - assets directory for animations, api_KEY (Secret), audio, fonts(only for crimson pro, rest using direct google fonts embedding), icons (the actual files for ios and android app icons are defined in android/app/src/res/midmaps and ios/Runner/Assets.xcassets) and images
