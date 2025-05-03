@@ -121,7 +121,7 @@ class _MainSplashScreenState extends State<MainSplashScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'know more about your place',
+                    'an intuitive and minimalistic vveather and uv app',
                     style: TextStyle(
                       fontSize: 16,
                       fontFamily: 'CrimsonPro',

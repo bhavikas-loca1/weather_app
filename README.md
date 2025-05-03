@@ -1,6 +1,22 @@
 # VVeatherly App
+<p>
+VVeatherly is a simple, minimilistic and aesthetic cross-platform Flutter weather application that provides real-time weather information, UV index, and a chatbot interface for weather queries. The app uses the OpenWeatherMap One Call 3.0 API and supports both light and dark themes. 
+This app was originally a figma idea that was then brought to life using flutter. 
+</p>
 
-VVeatherly is a cross-platform Flutter weather application that provides real-time weather information, UV index, and a chatbot interface for weather queries. The app uses the OpenWeatherMap One Call 3.0 API and supports both light and dark themes.
+## demo version
+<video controls src="demo.mp4" title="Title"></video>
+The actual screenshots of the android version of the app are as follows: 
+
+![actual android icon](actual_icon.jpg)
+![first splash screen](splash_screen_withaudio.jpg)
+![second splash screen](main_screen.jpg)
+![default light mode](light_mode.jpg)
+![dark mode](dark_mode.jpg)
+![search bar demonstration](search_bar.jpg)
+![chatbot_screen](chatbot_screen.jpg)
+![uv index page](uv_index.jpg)
+
 
 ---
 
