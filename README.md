@@ -41,8 +41,10 @@ NOTE: Set up the flutter environment using the official flutter documentation fo
 ```
 
 ### 2. install dependencies 
+
 ```console
  flutter pub get
+
 ```
 
 ### 3. create an api_KEY folder in your assets 
