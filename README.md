@@ -41,7 +41,9 @@ NOTE: Set up the flutter environment using the official flutter documentation fo
 ```
 
 ### 2. install dependencies 
-<pre>'''sh flutter pub get''' </pre>
+```console
+ flutter pub get
+```
 
 ### 3. create an api_KEY folder in your assets 
 In it create a secret_key.json file that contains your api key in the following format
@@ -55,9 +57,11 @@ In it create a secret_key.json file that contains your api key in the following 
 <p> NOTE: You have to subscribe to the openweatherapp one-call api 3.0 inorder to enable the access to this api. This api will provide you with current weather, hourly forecasts and uv indexEven though this api requires you to give out your card details, worry not because upto 999 calls are free per day. Once you have received the confirmation mail, you can use your default api key from openweatherapi to access the 3.0 endpoint. </p>
 
 ### 4. run the application
-'''
+
+```console
 Flutter run 
-'''
+```
+
 <p> NOTE: Check for your sdk dependencies and permission issues (i.e., check ios/runner and android/app/src) before running the app </p>
 
 ## Project Structure 
